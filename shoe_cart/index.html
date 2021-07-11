@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>cart</title>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script  src="script.js"></script>
+    </head>
+    <body>
+        <div class="bottom">
+            <div class="white_bottom">
+                <div class="left_side">
+                    <input class="mouseP" type="text" />
+                    <div class="top_sq"></div>
+                    <div class="bottom_sq"></div>
+                    <div class="shoe">
+                        <div class="left_btn"><i class="fa fa-previous"></i></div>
+                        <div class="shoe_img">
+                            <img class="imgR" src="shoeR.png"/>
+                            <img class="imgW" src="shoeW.png"/>
+                        </div>
+                        <div class="right_btn"><i class="fa fa-next"></i></div>
+                    </div>
+                    <div class="switch">
+                        <div class="switch1 th_shoe"></div>
+                        <div class="switch2"></div>
+                    </div>
+                    <div class="icon">
+                        <div class="back">
+                            <svg viewbox="0 2 50 50">
+                                <circle cx="25.906" cy="27.496" r="19.121"></circle>
+                                <polyline points="24.5 34.157 17.053, 27.341 24.5,20.525 "></polyline>
+                                <line xl="17.053" yl="27.341" x2="35.233" y2="27.468"></line>
+
+                            </svg>
+                        </div>
+                        <div class="cart" id="cartIcon">
+                            <svg viewbox="0 0 50 50">
+                                <path d="m22.822, 28.96"></path>
+                                <polyline points="15.289, 18.241 17.591, 18.528 21.689, 30 30.228, 30 32.208, 22.262 18.891, 22.325"></polyline>
+                                <circle class="W" cx="28.472" cy="32.31" r="0.996"></circle>
+                                <circle class="W" cx="23.257" cy="32.31" r="0.996"></circle>
+                                <circle cx="24.804" cy="25.496" r="19.121"></circle>
+
+                            </svg>
+                           <div class="RTnumber"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right_side">
+                    <div class="info">
+                        <div class="sname">&nbsp; skate Shoes 
+                            <div class="name"><b>Walk</b></div>
+                        </div>
+                        <div class="price">RS 8,700</div>
+                        </div>
+                        <div class="deco"></div>
+                        <div class="detail">
+                        <div class="qua">
+                            <div class="text">
+                                <div class="word">Quantity:</div>
+                                <div class="count">1</div>
+                            </div>
+                            <div class="counter">
+                                <div class="sub">-</div>
+                                <div class="num">1</div>
+                                <div class="add">+</div>
+                            </div>
+                        </div>
+                        
+                        <div class="color">
+                            <div class="text">
+                                <div class="word">Color:&nbsp; </div>
+                                <div class="this_color"></div>
+                            </div>
+                            <div class="color_group">
+                                <div class="c1">Maroon</div>
+                                <div class="c2">Ivory</div>
+                            </div>
+                        </div>
+                    
+                
+                        <div class="size">
+                            <div class="text">
+                                <div class="this_size">size:&nbsp;</div>
+                                <div class="size_num"></div>
+                            </div>
+                            <ul>
+                                <li>7</li>
+                                <li>7.5</li>
+                                <li>8</li>
+                                <li>8.5</li>
+                                <li>9</li>
+                                <li>9.5</li>
+                                <li>10</li>
+                                <li>10.5</li>
+                            </ul>
+
+                        </div>
+                        </div>
+                   
+                    <button id="addTOCart">
+                        <svg viewbox="0 0 50 50">
+                            <path d="M22.822,28.96"></path>
+                            <polyline points="15.289, 18.241 17.591, 18.528 21.689, 30 20.288,30 32.208, 22.262 18.891, 22.325"></polyline>
+                            <circle class="w" cx="28.472" cy="32.31" r="0.996"></circle>
+                            <circle class="w" cx="23.257" cy="32.31" r="0.996"></circle>
+
+                        </svg>
+                        <h1>Add to cart</h1>
+                    </button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_bottom">
+                <div class="cart_list">
+                    <div class="close_btn">0</div>
+                    <div class="title">
+                        <div class="cart_icon">
+                            <svg viewbox="0 0 50 50">
+                                <path d="M22.822, 28.96"></path>
+                                <polyline points="15.289, 18.241 17.591, 18.528 21.689, 30 30.228, 30 32.208, 22.262 18.891, 22.325"></polyline>
+                                <circle class="w" cx="28.472" cy="32.31" r="0.996"></circle>
+                                <circle class="w" cx="23.257" cy="32.31" r="0.996"></circle>
+                            </svg>
+                        </div>
+                        <h2>Your Cart</h2>
+                    </div>
+                    <div class="list">
+                        <div class="cart_cat">
+                            <div class class="desT">Description</div>
+                            <div class="colorT" >Color</div>
+                            <div class="sizeT">size</div>
+                            <div class="QTYT">QTY</div>
+                            <div class="priceT">Price</div>
+                        </div>
+                        <ul></ul>
+                    </div>
+                    <div class="total">
+                        <div class="totalT">Total:</div>
+                        <div class="totalP">NT$ 21600</div>
+                            
+                    </div>
+                    <div class="checkout">
+                        <button class="cancel">Cancel</button>
+                        <button>Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="roomRec">
+            <div class="recbottom"></div><img src=""/>
+
+        </div>
+        <div class="linkarea">
+            <a href="#" target="_blank">
+                <span class="fa fa-facebook-official"></span>
+
+            </a>
+            <a href="#" target="_blank">
+                <span class="fa fa-instagram"></span>
+            </a>
+        </div>
+       
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" ></script>
+    <script src="script.js"></script>
+</html>

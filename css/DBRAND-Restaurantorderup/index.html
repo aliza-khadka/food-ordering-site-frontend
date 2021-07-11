@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Food Ordering site</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <source src="http://localhost/development/programs/html/html5/sample/sample1.m4v" type="video/mp4" />
+
+	<script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+   
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Themify Icons-->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Bootstrap DateTimePicker -->
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="wrapper site-header__wrapper">
+              <a href="#" class="brand">Brand</a>
+              <nav class="nav">
+                <button class="nav__toggle" aria-expanded="false" type="button">
+                  menu
+                </button>
+                <ul class="nav__wrapper">
+                  <li class="nav__item"><a href="#">Home</a></li>
+                  <li class="nav__item"><a href="#">About</a></li>
+                  <li class="nav__item"><a href="#">Services</a></li>
+                  <li class="nav__item"><a href="#">Hire us</a></li>
+                  <li class="nav__item"><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+          <script>
+          let navToggle = document.querySelector(".nav__toggle");
+let navWrapper = document.querySelector(".nav__wrapper");
+navToggle.addEventListener("click", function () {
+  if (navWrapper.classList.contains("active")) {
+    this.setAttribute("aria-expanded", "false");
+    this.setAttribute("aria-label", "menu");
+    navWrapper.classList.remove("active");
+  } else {
+    navWrapper.classList.add("active");
+    this.setAttribute("aria-label", "close menu");
+    this.setAttribute("aria-expanded", "true");
+  }
+});   
+</script>  
+        <!--<header id="header">
+
+	<nav>
+		<ul>
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#special">SPECIAL</a></li>
+			<li><a href="#about">ABOUT</a></li>
+			<li><a href="#dish">DISHES</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+		</ul>
+	</nav>
+
+    <a href="#" class="logo"> <img src="images/logo.jpg" alt=""></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars" style="font-size: 45px;"></i>
+      </a>
+    </div>
+</header>-->
+
+<!-- home section starts-->
+<section id="home" class="cd-slider">
+	
+
+<div class="row min-vh-100 align-items-center">
+<div class="col-md-8 ml-md-5 text-md-left text-center content">
+    <h1>food that you can't resist</h1>
+    <h2>enjoy the marvelous taste</h2>
+    <p><span>Lorem ipsum dolor sit amet, consectequaerat  animi nemo adipisci modi consequatur assumenda dicta nisi? Dignissimos.</span></p>
+    <a href="#special"><button>get started</button></a>
+</div>
+
+<div class="video-container">
+   
+  <video src="images/video1.mp4" class="vid vid1" autoplay="autoplay" muted="muted" loop="loop"></video>
+    <video src="images/video2.mp4" class="vid vid2" autoplay="autoplay" muted="muted" loop="loop"></video>
+   <video src="images/video3.mp4" class="vid vid3" autoplay="autoplay" muted="muted" loop="loop"></video>
+   
+</div>
+    </div>
+
+<nav>
+    <div><a class="prev" href="#"></a></div>
+    <div><a class="next" href="#"></a></div>
+
+</nav>
+
+</section>
+
+
+ <!--home section ends-->
+ 
+<!-- dish section starts  -->
+
+<section id="dish" class="container">
+
+    <div class="gtco-section">
+        <div class="gtco-container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                    <h2 class="cursive-font primary-color">Popular Dishes</h2>
+                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-4 col-md-3 col-sm-4">
+                    <a href="images/new01.jpg" class="fh5co-card-item image-popup">
+                        <figure>
+                            <div class="overlay"><i class="ti-plus"></i></div>
+                            <img src="images/new01.jpg" alt="Image" class="img-responsive">
+                        </figure>
+                        <div class="fh5co-text">
+                            <h2>Fresh Mushrooms</h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+                            <p><span class="price cursive-font">$19.15</span></p>
+                           <div class="box">Add to Cart</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-4">
+                    <a href="images/new02.jpg" class="fh5co-card-item image-popup">
+                        <figure>
+                            <div class="overlay"><i class="ti-plus"></i></div>
+                            <img src="images/new02.jpg" alt="Image" class="img-responsive">
+                        </figure>
+                        <div class="fh5co-text">
+                            <h2>Cheese and Garlic Toast</h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+                            <p><span class="price cursive-font">$20.99</span></p>
+                            <div class="box">Add to Cart</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-4">
+                    <a href="images/new03.jpg" class="fh5co-card-item image-popup">
+                        <figure>
+                            <div class="overlay"><i class="ti-plus"></i></div>
+                            <img src="images/new03.jpg" alt="Image" class="img-responsive">
+                        </figure>
+                        <div class="fh5co-text">
+                            <h2>Grilled Chiken Salad</h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+                            <p><span class="price cursive-font">$8.99</span></p>
+                            <div class="box">Add to Cart</div>
+                        
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="images/new04.jpg" class="fh5co-card-item image-popup">
+                        <figure>
+                            <div class="overlay"><i class="ti-plus"></i></div>
+                            <img src="images/new04.jpg" alt="Image" class="img-responsive">
+                        </figure>
+                        <div class="fh5co-text">                            <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+                            <p><span class="price cursive-font">$12.99</span></p>
+                            <div class="box">Add to Cart</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="images/new05.jpg" class="fh5co-card-item image-popup">
+                        <figure>
+                            <div class="overlay"><i class="ti-plus"></i></div>
+                            <img src="images/new05.jpg" alt="Image" class="img-responsive">
+                        </figure>
+                        <div class="fh5co-text">
+                            <h2>Tomato Soup with Chicken</h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+                            <p><span class="price cursive-font">$23.10</span></p>
+                            <div class="box">Add to Cart</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="images/new06.jpg" class="fh5co-card-item image-popup">
+                        <figure>
+                            <div class="overlay"><i class="ti-plus"></i></div>
+                            <img src="images/new06.jpg" alt="Image" class="img-responsive">
+                        </figure>
+                        <div class="fh5co-text">
+                            <h2>Salad with Crispy Chicken</h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+                            <p><span class="price cursive-font">$5.59</span></p>
+                            <div class="box">Add to Cart</div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</section>
+
+<!-- dish section ends  -->
+
+
+
+<!-- about section starts  -->
+
+<section id="about" class="container">
+<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                    <h2 class="cursive-font primary-color">About US</h2>
+    
+
+    <div class="row min-vh-100">
+
+        <div class="col-md-6 text-center text-md-left align-self-center content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi recusandae iusto, perferendis earum laboriosam rerum et quisquam iste vel commodi corporis praesentium porro impedit ullam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci iure aliquam illum quaerat quia voluptate.</p>
+            <a href="#"><button>learn more</button></a>
+        </div>
+
+        <div class="col-md-6 image">
+            <img src="images/chef1.png" alt="">
+        </div>
+
+    </div>
+</div>
+
+</section>
+
+<!-- about section ends  -->
+
+
+
+
+<!--fun facts starts-->
+<div id="gtco-counter" class="gtco-section">
+    <div class="gtco-container">
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+                <h2 class="cursive-font primary-color">Fun Facts</h2>
+                <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+                <div class="feature-center">
+                    <span class="counter js-counter" data-from="0" data-to="5" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="counter-label">Avg. Rating</span>
+
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+                <div class="feature-center">
+                    <span class="counter js-counter" data-from="0" data-to="43" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="counter-label">Food Types</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+                <div class="feature-center">
+                    <span class="counter js-counter" data-from="0" data-to="32" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="counter-label">Chef Cook</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+                <div class="feature-center">
+                    <span class="counter js-counter" data-from="0" data-to="1995" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="counter-label">Year Started</span>
+
+                </div>
+            </div>
+                
+        </div>
+    </div>
+</div>
+
+<!--fun facts ends-->
+<!-- footer section starts  -->
+
+<section id="footer" class="container-fluid">
+
+<div class="row align-items-center">
+
+<div class="col-md-4 brand">
+
+<a href="#" class="logo"><img src="images/" alt=""></a>
+
+<div class="icons">
+    <a href="#" class="fab fa-facebook-square"></a>
+    <a href="#" class="fab fa-twitter-square"></a>
+    <a href="#" class="fab fa-instagram-square"></a>
+    <a href="#" class="fab fa-pinterest-square"></a>
+</div>
+
+</div>
+
+<div class="col-md-4 footer-links">
+<h3>links:</h3>
+<a href="#home">home</a>
+<a href="#special">special</a>
+<a href="#about">about</a>
+<a href="#dish">dish</a>
+<a href="#contact">contact</a>
+</div>
+
+<div class="col-md-4 text-center text-md-left letter">
+<h2>newsletter</h2>
+<input type="text"><br>
+<input type="submit" value="subscribe">
+</div>
+
+</div>
+
+<h1>&copy; copyright @ 2020 by <span>D-BRAND Solution</span></h1>
+
+</section>
+
+<!-- footer section ends  -->
+
+
+<!-- script part starts -->
+
+<script> document.getElementById('myvideo').play();  </script>
+<script>
+    // console.log(window.innerWidth);
+  /* if (window.innerWidth >= 765){
+        document.querySelector(".fa-bars").style.display = "none";
+    }
+    else{
+        document.querySelector(".fa-bars").style.display = "block";
+    }*/
+
+    function myFunction() {
+  var x = document.getElementById("");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+<script>
+    $(document).ready(function(){
+        $('.fa-bars').click(function(){
+            console.log("Clicked.")
+        $(this).toggleClass('fa-times');
+        $('nav').toggleClass('nav-toggle');
+    });
+        
+     $('nav ul li a').click(function(){
+        $('.fa-bars').removeClass('fa-times');
+        $('nav').removeclass('nav-toggle');
+    });
+
+    $('.next').click(function(){
+        $('.vid1').css('display','none');
+        $('.vid2').css('display','block');
+        $('.vid3').css('display','none');
+    });
+
+    $('.next, .vid2').click(function(){
+        $('.vid2').css('display','none');
+        $('.vid1').css('display','none');
+        $('.vid3').css('display','block');
+    });
+
+     
+    $('.prev, vid3').click(function(){
+        $('.vid2').css('display','none');
+        $('.vid1').css('display','block');
+        $('.vid3').css('display','none');
+    });
+    
+  
+    $(window).on('scroll load',function(){
+        if($(window).scrollTop() > 10){
+            $('#header').addClass('header-active');
+        }else{
+            $('#header').removeClass('header-active');
+        }
+    });
+
+});
+</script>
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+</div>
+<script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- countTo -->
+    <script src="js/jquery.countTo.js"></script>
+
+    <!-- Stellar Parallax -->
+    <script src="js/jquery.stellar.min.js"></script>
+
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    
+    <script src="js/moment.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+
+
+    <!-- Main -->
+    <script src="js/main.js"></script>
+   > 
+
+</body>
+</html>
